@@ -1,1 +1,3 @@
 # Wearable-Wrist-Mounted-Health-Monitoring-Device-
+
+This repository contains the arduino code, 3D printing, and write up files used in my summer internship in 2025. I applied and received a research grant from NASA via the New Jersey Space Grant Consortium (NJSGC) to create a wrist-mounted device which monitored the users vitals as well as their ambient metrics. The system uses an ESP32 microcontroller, the code for which is provided here, which connects to the sensors specified in the paper. The system takes sensor data and displays it via OLED screen and serial output. Additionally the device can connect to WiFi and upload data to a Firebase database once the user sets one up and provides the required information in the code. 
